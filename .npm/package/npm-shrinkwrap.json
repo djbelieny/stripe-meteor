@@ -1,16 +1,16 @@
 {
   "dependencies": {
     "stripe": {
-      "version": "3.3.4",
+      "version": "3.5.0",
       "dependencies": {
         "bluebird": {
-          "version": "2.9.25"
+          "version": "2.9.30"
         },
         "qs": {
-          "version": "2.4.1"
+          "version": "2.4.2"
         },
         "lodash": {
-          "version": "3.8.0"
+          "version": "3.9.3"
         }
       }
     }

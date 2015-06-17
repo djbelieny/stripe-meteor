@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-	api.use(['tinytest','mrgalaxy:stripe']);
+	api.use(['tinytest','benjick:stripe']);
 	api.add_files([ "tests/client.js", "tests/checkout.js" ], 'client');
 	api.add_files([ "tests/server.js" ], 'server');
 });

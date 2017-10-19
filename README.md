@@ -4,11 +4,13 @@ A Meteor package containing [Stripe](https://stripe.com) scripts:
 - [Stripe Checkout](https://stripe.com/docs/checkout)
 - [Stripe for Node.js](https://github.com/stripe/stripe-node)
 
+**
+
 ## Install
 
 Using Meteor's Package System:
 
-	$ meteor add benjick:stripe
+	$ meteor add djbelieny:stripe
 
 ## Usage
 

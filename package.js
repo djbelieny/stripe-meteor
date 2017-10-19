@@ -1,11 +1,13 @@
 Package.describe({
-	summary: "Stripe.js and Node-Stripe brought to Meteor.",
-	version: "4.2.0",
-	name: "benjick:stripe",
-	git: "https://github.com/benjick/stripe-meteor.git"
+	summary: "Stripe.js(V3) and Node-Stripe(5.1.1) brought to Meteor.",
+	version: "4.3.0",
+	name: "djbelieny:stripe",
+	git: "https://github.com/djbelieny/stripe-meteor.git"
 });
 
-Npm.depends({ "stripe": "4.2.0" });
+Npm.depends({
+	"stripe": "5.1.1"
+});
 
 Package.onUse(function(api) {
 	api.versionsFrom('1.0.1');
@@ -16,7 +18,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-	api.use(['tinytest','benjick:stripe']);
-	api.add_files([ "tests/client.js", "tests/checkout.js" ], 'client');
-	api.add_files([ "tests/server.js" ], 'server');
+	api.use(['tinytest', 'benjick:stripe']);
+	api.add_files(["tests/client.js", "tests/checkout.js"], 'client');
+	api.add_files(["tests/server.js"], 'server');
 });
